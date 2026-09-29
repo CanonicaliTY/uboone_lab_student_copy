@@ -32,7 +32,7 @@ def SearchID(run,subrun,event,id_list):
         else:
             pass
     # fail case
-    if (id==0):
+    if (id==0):   #Bug: if the first entry is the one we are looking for, it will return 0, which is the default value for id.
         print("No such event found! Please check that such an event exists.")
         print("Displaying event: {}, subrun: {}, run: {}".format(id_list[0][1], id_list[0][2], id_list[0][3]) )
     return id 
