@@ -1,1 +1,8 @@
+##Data files
 data/bnb_run3_mc_larcv.h5
+data/bnb_run3_mc_larcv_slimmed.h5
+data/MC_EXT_flattened.pkl
+data/oscillated_data.pkl
+
+##MaCOS
+.DS_Store
