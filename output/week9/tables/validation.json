@@ -1,0 +1,47 @@
+{
+  "status": "passed",
+  "direct_reweighting_checks": 12,
+  "original_observed_grids_reproduced": [
+    "Manual",
+    "RF",
+    "NN"
+  ],
+  "maximum_contour_chi2_error": 6.495980482412733e-07,
+  "maximum_systematic_rescaling_error": 5.684341886080802e-14,
+  "mc_normalisation": 5.0,
+  "thresholds": {
+    "RF": 0.745,
+    "NN": 0.744
+  },
+  "test_index_sha256": "161dd4b59951d833c058591ab6d5051d883d2ddbafe21130bf3cc639d57e7c39",
+  "test_mask_sha256": {
+    "Manual": "13a2f58408ccf2a7e3d18f1bd43a3f44342d462b0cb24d218e999e6c5c24c3ed",
+    "RF": "921841301e0cc84f60d1cb93f4fbe74199a91c215a5d12c721564dde91afdae3",
+    "NN": "a8f9d3be0268e11f680115811736cea47245eb4df671175376d24c195a3dade8"
+  },
+  "versions": {
+    "numpy": "2.4.6",
+    "pandas": "3.0.6",
+    "matplotlib": "3.11.2",
+    "scipy": "1.17.1",
+    "scikit-learn": "1.9.1",
+    "tensorflow": "2.21.0",
+    "Pillow": "12.3.0"
+  },
+  "animations": {
+    "mass_scan_fixed_amplitude_012.gif": {
+      "frames": 52,
+      "size": [
+        1350,
+        630
+      ]
+    },
+    "amplitude_scan_fixed_dm3.gif": {
+      "frames": 51,
+      "size": [
+        1350,
+        630
+      ]
+    }
+  }
+}
